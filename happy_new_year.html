@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new_year.css">
+    <style>
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px #ffd700; }
+            50% { text-shadow: 0 0 20px #ffd700; }
+            100% { text-shadow: 0 0 5px #ffd700; }
+        }
+
+        .glowing-text {
+            font-size: 36px;
+            color: #ffd700;
+            animation: glow 2s linear infinite;
+        }
+    </style>
+    <title>Happy New Year 2024</title>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="background-video" width="50" height="200">
+            <source src="bg2.mp4" type="video/mp4">
+        </video>
+        
+        <div class="container">
+            <h1 class="glowing-text">Happy New Year</h1>
+            <h2 class="glowing-text">2024</h2>
+        </div>
+    </div>
+    <script src="wishes_page.html"></script>
+</body>
+</html>
